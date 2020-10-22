@@ -1,0 +1,46 @@
+.navbar{
+    margin: 0;
+    height: 50px;
+    padding: 0;
+    background-color: #3d3d3d;
+}
+
+.nav-brand
+{
+    color: white;
+    line-height: 50px;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.nav-ul 
+{
+    list-style-type: none;
+    margin: 0 auto;
+    padding-right: 1rem;
+    float: right;
+}
+
+.nav-ul li {
+    display: inline;
+    padding-right: 1rem;
+    line-height: 50px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.nav-button
+{
+    background-color:black;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    padding: .5em 2rem;
+    cursor: pointer;
+}
+
+.nav-button:hover{
+    color: #3d3d3d;
+    background-color: white;
+}
